@@ -1,0 +1,529 @@
+{
+  "date": "2026-11-10",
+  "software_snapshot": {
+    "repo": "https://github.com/X-j2/ndir",
+    "commit": "1bb60d7601658c747ef0943ff70419cec2caca91"
+  },
+  "firmware_source": {
+    "training_baseline": "129ec4d",
+    "includes_local_working_tree_changes": true
+  },
+  "added_artifacts": [
+    {
+      "path": "PCB/PCB_PCB1_2026-05-07.pdf",
+      "sha256": "a4918918fcf7937afa8eb35e64d77db54ef27519fb10ada816b7c54a874a9116"
+    },
+    {
+      "path": "PCB/ProPrj_20223057_2026-05-07.epro2",
+      "sha256": "f38fe8c32e16b18546ea88babed3a94a70f73f6095b466175c36e82419924a8e"
+    },
+    {
+      "path": "模型训练代码/_fe_verify/README.md",
+      "sha256": "fb0341e3d9c461c91ab815f7599666a0b03299cdc8f61ad0809f4f13ee3475be"
+    },
+    {
+      "path": "模型训练代码/_fe_verify/add_timing_files.py",
+      "sha256": "2c3202631141f2bc3f95395175ce308f4d05cf03cfc46786144ca56f127fdcfb"
+    },
+    {
+      "path": "模型训练代码/_fe_verify/compare.py",
+      "sha256": "22286b1ad2c23b71b05acab2aa75a745ba526016cee33b6331618402f72a5694"
+    },
+    {
+      "path": "模型训练代码/_fe_verify/e2e_chain.py",
+      "sha256": "4e2a0698c690eeaaa5e76f5616e2a7ec46f42206447844c11d98b7d0082ef4a6"
+    },
+    {
+      "path": "模型训练代码/_fe_verify/fw_runner.c",
+      "sha256": "fc56ed1cc1e813467679797553c8e7f9ae0a76a0dece128083422bd11edf007b"
+    },
+    {
+      "path": "模型训练代码/_fe_verify/gen_big.py",
+      "sha256": "40d4db59eefef09a4e07552a2f419086a06ef46f848f012fbd33e59e0eb2e000"
+    },
+    {
+      "path": "模型训练代码/_fe_verify/gen_cases.py",
+      "sha256": "79eb02907614d1aef28211fde1cd7b75c532868aa5361fede4cc78c2f28447e3"
+    },
+    {
+      "path": "模型训练代码/_fe_verify/gen_real.py",
+      "sha256": "ae50089b10db29625d12319cc5f0e076467e2595fb2de3dd368c43360c5b0f70"
+    },
+    {
+      "path": "模型训练代码/_fe_verify/gen_rf_ref.c",
+      "sha256": "e8d67e5939fe698222bc21b5606ac705c4dbc298eaa241f9e31fd284d3b1a755"
+    },
+    {
+      "path": "模型训练代码/_fe_verify/host_vs_firmware.py",
+      "sha256": "d6681d43d9931753cb11cb8f69f74cb051c56e319426b96ecbcea3d77b7e5a42"
+    },
+    {
+      "path": "模型训练代码/_fe_verify/rf_rebuild.py",
+      "sha256": "f406f8331bc772a347ab69b7e1fe70178b23367428ab5024703ef6b799bca07c"
+    },
+    {
+      "path": "模型训练代码/_fe_verify/sim_queue.c",
+      "sha256": "95bb07d30a6e0cd6df9208cc38920649f5048081668de0257296257f9b6c599c"
+    },
+    {
+      "path": "模型训练代码/_fe_verify/stm32f4xx_stub.h",
+      "sha256": "e2eb9ad6ef2290499c8b90b2e70aa4942eca2e00365073332cac3b28fc98d846"
+    },
+    {
+      "path": "模型训练代码/_fe_verify/test_main.c",
+      "sha256": "463e050311591c2f6b8425bb75da520de557c589dd78a924ac4e7773f6fa0106"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/1.uvprojx",
+      "sha256": "7ba9bed103ee06c770a3f27a9bf2224facc85ad5a7e662e17a4cfd6cf0b2236b"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/AI/ai_bridge.c",
+      "sha256": "7d4f34d56270e3ffa3b1f106d6238d8712567d73656e0548b6bb14aa61b98e9f"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/AI/ai_bridge.h",
+      "sha256": "ab1d841ddd21455fbc5cc10e438386c6488d7ec8469389e5a7b5a8d069770bdf"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/AI/feature_extract.c",
+      "sha256": "ccda4c49bac573965f6eb40ca38e99a68aa910eb3213bb4e37d8372e1b0d7cd7"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/AI/feature_extract.h",
+      "sha256": "9249169328483199ce5b3c61bc52153ec99a1eb6b338e74d3002033afab2c236"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/Core/core_cm4.h",
+      "sha256": "cc3f6c8186d0a5a33a770f7b70ae168a58a8533266a6f5ccfc807ad309f19240"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/Core/core_cmFunc.h",
+      "sha256": "ce53e310d8cb2a48e9e50583b36aaf843fecf6154360f75f6a902e5a08f7b43d"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/Core/core_cmInstr.h",
+      "sha256": "1a1b27e7f61d4c410b14a69d44c584e4d4dd837081f212891c24f8fc71ad5e05"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/Core/core_cmSimd.h",
+      "sha256": "9bb0ee1883c22b982db9aa662ee712151cb27c6938ecda5ab2ec9df448b7bef0"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/Core/startup_stm32f40_41xxx.s",
+      "sha256": "2c9630519448c11c9274803f0fbb4537369f06967b86c911d56e21297f749f13"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/Core/stm32f4xx.h",
+      "sha256": "ed4a9a6aa53d69fb2325dc3fabb05b28d245c6918c0631ddd7bf3f2f6cb2c1e8"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/Core/system_stm32f4xx.c",
+      "sha256": "79a8026ebbd1d1cb68b6a371523880ce4a2bb4cd889389aa398d2512c4ffff7a"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/Core/system_stm32f4xx.h",
+      "sha256": "847e95f919effcf6c3cc4be6521ab2ed932b1ef4f0774ca3a6b35c6437b3ae20"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/misc.c",
+      "sha256": "bf3a4d333928490c0f7b110ab9e8894cd8d90d26598e9e7de1ed736a65bb48fc"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/misc.h",
+      "sha256": "f5bcb780be886ca3aabdaee6efb8e4c407ca2a70f1eee1630b47c47573e910d3"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_adc.c",
+      "sha256": "41fd61b603a0c6ed5fe168e2b6b6d8b0339a9b9ba7d65497cea8708fa947561d"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_adc.h",
+      "sha256": "7f637d6a45bcb179a7f64b6ab9f134d85a0ec6d1afedb9312baefd4d5642c693"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_can.c",
+      "sha256": "0c2a7893977384d19e7bde9b157181699bbc4ae101c15be898eede8fd7cb5653"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_can.h",
+      "sha256": "429a368a7f7d319d714ba6481c839e1fd1dd22030e0df7c8da488d5c9f17af82"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_cec.c",
+      "sha256": "8a4073bc6b76d672c19c74813f8403619ef55049821ae7c2d3b826a0748b7c28"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_cec.h",
+      "sha256": "378721e0aec4e4f417ed8d1888bfc10476be76a33b35f173b558a8bd9e8d92f5"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_crc.c",
+      "sha256": "c2539a540c261c47f6bf9dc4dc8f30819761582c90411bc0093770e9b2c6cad1"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_crc.h",
+      "sha256": "c274ef7db0c56ccda9c2e2b788e2c696316e906400b85f5560550075103a2ed4"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_cryp.c",
+      "sha256": "325eb9c6140dafb3ba4c49bd4ec3a049b5fb0b4e69afffdf94114db5b9028183"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_cryp.h",
+      "sha256": "367b6e90b8cb56ba5ac847e0976c2400985d8e2fbaa87f5e4d575c40fe3fdaec"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_cryp_aes.c",
+      "sha256": "fd708d5edb4972e13114f599e03fae0e616b273b57e367f6cebde110dd78282b"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_cryp_des.c",
+      "sha256": "5e246a490e7501055c01f04619c13f3d57d067bc649161d7fddb70c0fae06841"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_cryp_tdes.c",
+      "sha256": "8c69e6dd25d5077ee7436d794e285675aa34d900270451808c24eb0aeb9c48ff"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_dac.c",
+      "sha256": "bf0e8c6db61473b5d244088baf125aae448f4c8afc4a60987ae0fd75d1f77312"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_dac.h",
+      "sha256": "7545172127fcbefe30f9d7929ca4fb0fdcf21b482bab01fea7be707c999d9c55"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_dbgmcu.c",
+      "sha256": "940e7b5abef7ba7b875a4fb9cd3d28b79ed2ac2e30e206bdaf18b318b9c485cb"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_dbgmcu.h",
+      "sha256": "452528d6a706e2f7d9f82361fbcaad7c2f9ff515ad27a0cd6cd13886380b51f0"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_dcmi.c",
+      "sha256": "ac59832916100bda0d84f25248649b433fffd96000fe459d4ac936c105953ff0"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_dcmi.h",
+      "sha256": "b28e90ac940cbe8e086d8062724a4ea9ecdea13d42fbfcf4b7baa2561cb03fb3"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_dfsdm.c",
+      "sha256": "8de2448989611241145977bb4bffaa8e3ff89e15f1dd0e940402fe208413aba0"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_dfsdm.h",
+      "sha256": "fe5f7dcd78b269387ee8e29e54e390dd59691bdb415f2fa3ff05cf4abab0a419"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_dma.c",
+      "sha256": "274b9bcc8a078b623c05e8609044562a47b8bb958cee7897c0f607160ff5db00"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_dma.h",
+      "sha256": "bf64bc4109da3c1a376c5199c975d882bd0bcb3daba2b69552f8badc438e74a7"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_dma2d.c",
+      "sha256": "952e87f727d424290186f002ad6883fccdb612b09f3e80693d165cc4da64798e"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_dma2d.h",
+      "sha256": "3d00dba05d24d3f3da1141acac8240f5749b0a36ccecb6751723aa287d77ad81"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_dsi.c",
+      "sha256": "8483d79e9a007b3d27f0a3cc16a534db0fbe191d7477af56faa9c0e58a99b977"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_dsi.h",
+      "sha256": "56ba259665cb3936b931530a5d5879fa04669787972fea6547a6a2f662e4e586"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_exti.c",
+      "sha256": "aab68402755e28946fdcd2027b91f475a15ad6ab9abdfa588457a282f8e7b493"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_exti.h",
+      "sha256": "0edcd926be38ae28bad3acc6d97afe918b7185c9d894ba8e04cb21285bda7671"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_flash.c",
+      "sha256": "e042df443a5eb8c1dc7a5736a1f42abb4ead58012ce1865bff3c6f2a2c76f197"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_flash.h",
+      "sha256": "a96fedf85dbe12cef899be421dc9f3e4843cac4e2db384fa52f41b3b93cd9b5c"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_flash_ramfunc.c",
+      "sha256": "eb8d71da329eff3bbb415a5625a2f43f667af2bd1412240b35dc825279d85ba3"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_flash_ramfunc.h",
+      "sha256": "34a667592dd103bb253b214266817f348981540d83821a866b17a5e47eb0a080"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_fmc.c",
+      "sha256": "1a89e5824ae7fc9ad3d13c952ca7477f0e2f91b23bae4042a7470171f30648f3"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_fmc.h",
+      "sha256": "f94fe6db3ab86d7832c6db9cf77003ab74110fc8b0b4cf6436e83696e29ede2c"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_fmpi2c.c",
+      "sha256": "0cb576ed4bb6498ea17933345ded33133eae962291607be325cb7e80a6462866"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_fmpi2c.h",
+      "sha256": "959a6a229b3ff9f5c978ef34f78eb65d40606b9dcff70bbf279e795f928ce1f0"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_fsmc.c",
+      "sha256": "549b277afa3e9ef582d8bfb089ccb07313e3de333cc3321b0e1c05ae4df479ea"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_fsmc.h",
+      "sha256": "f7182cc9e6e95a2ad3be3fbaef4bc16841aa6c1421dcf2a37d2f9ac7c0bff1b9"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_gpio.c",
+      "sha256": "533762cfd2fb8830a35bf88a47da9ce26f036a3feac2afb055848edbd9388009"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_gpio.h",
+      "sha256": "109149a5b0af31faeb2f224cbc6935d4ae561336e13c2c1a4a6bf8e64a72a22e"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_hash.c",
+      "sha256": "6cb4557a4e4a65b1f9180c0bc93821d5a4bccfe9b78ed164d8ca8571e27e4fd5"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_hash.h",
+      "sha256": "35eba7111b4b74f6a1942719df7699a5c7bbef25edce733a047abdcad701cdbf"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_hash_md5.c",
+      "sha256": "0021c446c3708212a65b2b46262a223f3d033bd8653d84c5fb248edfbf41a17c"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_hash_sha1.c",
+      "sha256": "203263f0801950b29aae8ac636fc91651a72286f410aa653f1d762fce75335bd"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_i2c.c",
+      "sha256": "b25b368133c7ac49be6a83781cbeaacfcba1bd47cd5a5d7479ec9dc654904ca9"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_i2c.h",
+      "sha256": "7fd29a6ab2f4fe3932458b995bc225389846a42a0643572af590dc6dbe597096"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_iwdg.c",
+      "sha256": "da3705e08c1325dc7e84a5004cf5da6a21b05a019838fa36ffb5f1736cc1bc8d"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_iwdg.h",
+      "sha256": "251f78eeac138f84c98dded6c9a9207a8c701a41599b42c6666d9add3fae2e1b"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_lptim.c",
+      "sha256": "47d0b121247454b99ed6ecbcc6b13c5c1f0bb16713ae746606ff2fc332242a43"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_lptim.h",
+      "sha256": "2ed0e79b8426206ccbbac849b1110eff8d696798c96bd16f7d4db0225d0da4b3"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_ltdc.c",
+      "sha256": "179a165a8d9828b2db184a971876f507ee4c4b04143d653d6c390a573bef4c9a"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_ltdc.h",
+      "sha256": "d9697f1320f108d6fe21ce21ad742a4c1830d84a91cdcb2cdd3bb3dd17263c26"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_pwr.c",
+      "sha256": "f35f86b5655a422cc1998f3928b1dc130ec84f1e3567365227d53810ab8c64d0"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_pwr.h",
+      "sha256": "6cff9e2d9e47e12b3e8be7e5631719bfb3ab3eefe147476177834644a36df484"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_qspi.c",
+      "sha256": "4a02468197a226612105d9f68dd3ee54c150be13b25147f24bde3674b76cb488"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_qspi.h",
+      "sha256": "5e40050a2855b44e06976a1718ea70278a8ea646608bc573072626cc6db09f6a"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_rcc.c",
+      "sha256": "5130292c7c86dd0e29a586f4cc51b8a9cffaee834164ef4237dd2fa260b4caac"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_rcc.h",
+      "sha256": "ab01161a0611883706ab281b448cda2e2227aba237e0ccf82b7001395508c67f"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_rng.c",
+      "sha256": "699b4f9b44f94208d13066b2864ff6e3efd1164efc312d8a111b817085ca4378"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_rng.h",
+      "sha256": "528262f3cec49bb403d7b1abd145d82cd6c1f181a1227268145e35edff6de3ad"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_rtc.c",
+      "sha256": "cdba22024c30e8e17360635673e50e96dfd15f04117aa455e9a22e542d357ecc"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_rtc.h",
+      "sha256": "16ad0cafc67bfa9b31cb37f93434cd19eb2fc5c395507337e436de55defd39f3"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_sai.c",
+      "sha256": "9b798b26e5e8bc8a43f32430284bb236c372374f97c43d66db79f365dfca1b01"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_sai.h",
+      "sha256": "458ae65528020d66ed0f7f4cdf8b70e2c13e2580a7c4edf2e8af3d88bf5c1d3b"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_sdio.c",
+      "sha256": "714e5a1b08aa438e9779904060cb521040563619bc2489ef82d7749c3da764e9"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_sdio.h",
+      "sha256": "e6ff9ac805d05dbb8f51c9c8f0097fc4cce0cd15bee14ce7f3ab640ce1795f5e"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_spdifrx.c",
+      "sha256": "2098d34f35778702ce268174c1aad0320e093bc77c3dfcd9184b04e124002f21"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_spdifrx.h",
+      "sha256": "c5196f1af7b10f7bcf6d699b3ede0aaeffce00439c15d92483188feff6333b62"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_spi.c",
+      "sha256": "616b99e2decf0e47c405c3182e322fe4217fb49ae29e87b934ae1a7659e6942e"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_spi.h",
+      "sha256": "71e420d95b7e37f843de1f33319541d3771cbf243c4000419207845352f98b8e"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_syscfg.c",
+      "sha256": "ea20342d758b91caf8dd930efbee7475811d4bf3ee4e4bb11cdfd5bf13b38ade"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_syscfg.h",
+      "sha256": "46969ec7775eb6b0b3f830bdd632cdfecbbc3f6cdaa1289659d2924a4b6fc356"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_tim.c",
+      "sha256": "efbfdd00667befde06e1ac6a674454224c94fc6cbd8b5e706fb301504779c8ef"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_tim.h",
+      "sha256": "f01db08a14c26d260bf08f0301d6aa70713a7b885518ebbf7b640337e8007f66"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_usart.c",
+      "sha256": "8abf58c18ebe0abaa987dbc8ddd87593f11c44490e32d99d3d182170f59fde43"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_usart.h",
+      "sha256": "0a100560379e35d172b24fa8bacf8d15df3949734ce906ee70e99f7d336aff90"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_wwdg.c",
+      "sha256": "5d909c4c68262aa0c093ffa9f6669d8131e9920b70a46ee6e5979d0c2ce521ee"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/FWLIB/stm32f4xx_wwdg.h",
+      "sha256": "f8d23f14507283f36bb09d0b13c48dcccf6300c097ad626669ac58ff7c2668bd"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/HARDWARE/adc.c",
+      "sha256": "c3e8b2a99a84bdea02adb250ba12e15b0b37b9869bbbb689cd2e52e2910ac7e8"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/HARDWARE/adc.h",
+      "sha256": "6f98462be90b961db63ef2c6d6d8a47d5925871c4c28225261ff9616147377d7"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/HARDWARE/delay.c",
+      "sha256": "c8e247df31689a6bf62deca741f4dfd3b587312fff615c3c1871b44b8dcf0e0f"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/HARDWARE/delay.h",
+      "sha256": "c9c085233ef63bd7736186636a7e4403ee2e10b55fc3eebea65a1a57c3e4cf49"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/HARDWARE/ndir_math.c",
+      "sha256": "ece56cd8c21bc50efb7376da56d30f3b0ad5600f265fe58f270b6de694897e32"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/HARDWARE/ndir_math.h",
+      "sha256": "678d30e22349168f49997065f4415f697ae0f1533015d5afef4cd0a15773e460"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/HARDWARE/oled.c",
+      "sha256": "e117ed9332cbd622b2e744ed062bb7615411fa503686b78bad01a10a3204ed40"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/HARDWARE/oled.h",
+      "sha256": "9e3a2c02ed83deac105e29cb3027481ae5bbe6e13f3601c48d9be2bea5a461b7"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/HARDWARE/tim.c",
+      "sha256": "4c80987f57216650f743c5ea79d7e9096030423adbcaac369f45d2785595c8b7"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/HARDWARE/tim.h",
+      "sha256": "e5ffc2f4a049a0a0e0b86a98018b593c33a0905c5d63c1a0028e78420d36a736"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/HARDWARE/timing.c",
+      "sha256": "00a6f30ffec8c8c3e838a95f8c192ead53583b1c18d612ebd258cf43de4614ff"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/HARDWARE/timing.h",
+      "sha256": "b6c4bdd100800e88c36e81b469fd7f484a0c7172e8dfb4f3774e6f22d5e4f873"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/HARDWARE/usart.c",
+      "sha256": "be8fcaafb82b8b001046888750db095d2b16c4c9dcbbb43b52aea5b08677ef2b"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/HARDWARE/usart.h",
+      "sha256": "a42f2cd77ff58b6ca73149b59eab00d9a65315686171208d9fbdaac4224bff7f"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/Users/main.c",
+      "sha256": "9f30aaa17653436e29f08c6fa4c5c458b05cc9a644a5a69790d2d601b61d2c83"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/Users/stm32f4xx_conf.h",
+      "sha256": "3fdb28faca76e5b7d9e9cc85ea6f051352c18051266af328f89a954b83f4dd70"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/Users/stm32f4xx_it.c",
+      "sha256": "4621871a4aab38db71662e2a927bccce44de42b3b2c607c8ad9c3b3816ae76b9"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/Users/stm32f4xx_it.h",
+      "sha256": "99f8c6a9c5a502294b97aef9be45be5ffebfcb15c63e541cb84052463bddc6fd"
+    },
+    {
+      "path": "模型训练代码/ndir-f407/说明文档.md",
+      "sha256": "be3c499a1c89f455ecc18779ab60505e911db65f027c68bfc6d16842d5a315e3"
+    }
+  ]
+}
